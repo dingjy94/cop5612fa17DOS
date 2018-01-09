@@ -1,0 +1,8 @@
+<div> Query Argument: <input id="argument" type="text"></input> Method: <input id="method" type="text"></input> <button id="query" >Send</button></div>
+<div> <button id="send" ></button></div>
+<div> <button id="login-button" ></button>
+ <button id="sign-up-button" ></button>
+ <div><div id="result"></div></div>
+
+  <button id="subscribe" ></button>
+</div>

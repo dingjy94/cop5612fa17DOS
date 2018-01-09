@@ -1,0 +1,10 @@
+<div id="messages"></div>
+<button id="query" ></button>
+<div> UserName: <input id="user-input" type="text"></input> </div>
+<div> Email: <input id="email-input" type="text"></input> </div>
+<div> Password: <input id="password-input" type="text"></input> </div>
+<div> <button id="sign-up-button" >Sign Up</button>
+<button id="subscribe" ></button>
+<div> <button id="login-button" >cancle</button> <button id="send" ></button>
+</div>
+

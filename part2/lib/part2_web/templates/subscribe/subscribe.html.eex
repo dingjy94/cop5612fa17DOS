@@ -1,0 +1,6 @@
+<div> user email: <input id="user" type="text"></input> Your email<input id="email" type="text"></input><button id="subscribe" >Subscribe</button></div>
+<div> <button id="login-button" ></button>
+<button id="query" ></button>
+ <button id="sign-up-button" ></button>
+ <button id="send" ></button>
+</div>

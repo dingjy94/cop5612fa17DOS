@@ -1,0 +1,7 @@
+
+<div> Tweet: <input id="tweet" type="text"></input> <button id="send" >Send</button></div>
+<div> <button id="login-button" ></button>
+ <button id="sign-up-button" ></button>
+ <button id="query" >Send</button>
+ <button id="subscribe" ></button>
+</div>
