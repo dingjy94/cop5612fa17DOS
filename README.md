@@ -22,3 +22,17 @@ Notice, your server should be able to mine coins without any workers but has to 
 
 #### Push-Sum algorithm for sum computation
 - **State:** Each actor Ai maintains two quantities: s and w. Initially, s = xi = i (that is actor number i has value i, play with other distribution if you so desire) and w = 1
+- **Starting:** Ask one of the actors to start from the main process.
+- **Receive:** Messages sent and received are pairs of the form (s, w). Upon receive, an actor should add received pair to its own corresponding val- ues. Upon receive, each actor selects a random neighboor and sends it a message.
+- **Send:** When sending a message to another actor, half of s and w is kept by the sending actor and half is placed in the message.
+- **Sum estimate:** At any given moment of time, the sum estimate is s/w where s and w are the current values of an actor.
+- **Termination:** If an actors ratio s did not change more than 10^−10 in w/3 consecutive rounds the actor terminates. 
+
+#### Topologies
+- **Full Network**
+- **2D Grid:** Actors form a 2D grid. The actors can only talk to the grid neigboors.
+- **Line**
+- **Imperfect 2D Grid:** Grid arrangement but one random other neighboor is selected from the list of all actors (4+1 neighboors).
+
+#### Input
+```project2 numNodes topology algorithm```
