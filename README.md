@@ -36,3 +36,16 @@ Notice, your server should be able to mine coins without any workers but has to 
 
 #### Input
 ```project2 numNodes topology algorithm```
+
+##3 Pastry
+The specification of the Pastry protocol can be found in the paper Pas- try: Scalable, decentralized object location and routing for large-scale peer-to- peer systems. by A. Rowstron and P. Druschel. 
+Paper at <http://rowstron.azurewebsites.net/PAST/pastry.pdf>.
+
+#### Requirement
+Implement the network join and routing as described in the Pastry paper and encode the simple application that associates a key (same as the ids used in pastry) with a string. You can change the message type sent and the specific activity as long as you implement it using a similar API to the one described in the paper.
+
+#### Input
+
+```project3 numNodes  numRequests```
+
+Where ```numNodes``` is the number of peers to be created in the peer to peer system and ```numRequests``` the number of requests each peer has to make. When all peers performed that many requests, the program can exit. Each peer should send a request/second.
